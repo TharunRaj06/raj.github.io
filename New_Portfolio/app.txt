@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R A J</title>
+    <link rel="stylesheet" href="./app.css" />
+    <link rel="shortcut icon" href="./images/Asset 3.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="hero1">
+      <!-- <img src="./IMG_20200126_180931~3-01[95].jpeg" alt="hero" /> -->
+      <h1 id="one">design is</h1>
+      <h1 id="two"><span class="intel">intelligence</span> made</h1>
+      <h1 id="three"><span class="three">visible.</span></h1>
+      <div class="glow-bar"></div>
+    </div>
+    <div class="hero2">
+      <span onclick="hello()" id="menu">&#9776;</span>
+      <div class="menu" id="menu-bar">
+        <div class="side-nav" id="side-nav">
+          <ul>
+            <a id="close" href="javascript:void(0)" onclick="raj()">&#9776;</a>
+            <li>
+              <a href="#">HOME</a>
+            </li>
+            <li><a href="#">DETAILS</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+      <img src="./images/Asset 1.svg" alt="logo" />
+    </div>
+    <script src="./anime.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="./index.js"></script>
+    <script>
+    let nav = document.getElementById("side-nav");
+
+let close = document.getElementById("close");
+
+document.getElementById("menu").addEventListener("click", function () {
+  nav.style.marginLeft = 0;
+});
+
+close.addEventListener("click", function () {
+  nav.style.marginLeft = "-450px";
+});</script>
+  </body>
+</html>

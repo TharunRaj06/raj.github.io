@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+.hero1 {
+  height: 100vh;
+  background-image: url(./images/back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero1 img {
+  height: 300px;
+  width: 250px;
+  display: block;
+  position: absolute;
+  top: 25%;
+  right: 15%;
+}
+h1 {
+  pointer-events: none;
+}
+#one {
+  color: dimgray;
+  font-size: 3rem;
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+#two {
+  color: dimgray;
+  font-size: 3rem;
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+.intel {
+  color: rgb(189, 189, 189);
+}
+#three {
+  color: dodgerblue;
+  font-size: 3rem;
+  display: block;
+  position: absolute;
+  top: 50%;
+  opacity: 0;
+  left: 30%;
+  text-shadow: dodgerblue;
+}
+.glow-bar {
+  background-color: dodgerblue;
+  width: 10px;
+  height: 50%;
+  border-radius: 50px;
+  display: block;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.hero2 {
+  height: 100vh;
+  background-color: rgb(43, 122, 200);
+}
+.hero2 span {
+  font-size: 30px;
+  margin-left: 1%;
+  cursor: pointer;
+  color: rgb(54, 54, 54);
+}
+#menu-bar {
+  transition: 0.5s;
+}
+#close {
+  color: whitesmoke;
+  font-size: 30px !important;
+  text-decoration: none;
+  margin-top: 11%;
+  margin-left: 75%;
+  cursor: pointer;
+}
+.side-nav {
+  background-color: rgb(54, 54, 54);
+  height: 100vh;
+  width: 20%;
+  margin-top: -99px;
+  margin-left: -20%;
+  transition: 0.5s ease-in-out;
+}
+.side-nav ul {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-top: 20%;
+}
+.side-nav ul li {
+  padding: 10px;
+  margin-top: 55%;
+  list-style: none;
+}
+.side-nav ul li a {
+  padding: 8px 8px 8px 36px;
+  text-decoration: none;
+  color: antiquewhite;
+  margin-top: 10%;
+}
+img {
+  height: 40%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+#greeting {
+  font-size: 80px;
+  display: block;
+  float: right;
+  margin-top: 10%;
+  margin-right: 15%;
+}
+#prof {
+  display: block;
+  float: right;
+  margin-top: 0%;
+  margin-right: 7%;
+  font-size: 50px;
+}
+#frst {
+  display: block;
+  font-size: 50px;
+  margin-top: -20%;
+  margin-left: 69.5%;
+}
+#name {
+  font-size: 120px;
+  color: rgb(54, 54, 54);
+  display: block;
+  margin-top: 0%;
+  margin-left: -1%;
+  opacity: 0;
+}
+.hero3 {
+  height: 100vh;
+  background-color: rgb(54, 54, 54);
+}
+.pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+}
+#pic {
+  margin-top: 25%;
+  height: 110%;
+  display: block;
+  margin-right: 60%;
+}
+.hero3 p {
+  width: 40%;
+  color: white;
+  display: block;
+  line-height: 1.5;
+  margin-right: 5%;
+  float: right;
+}
+.hero4 {
+  height: 100vh;
+  background-color: rgb(43, 122, 200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero4 a {
+  text-decoration: none;
+  color: rgb(43, 122, 200);
+  background-color: rgb(54, 54, 54);
+  width: 10%;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(43, 122, 200);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(54, 54, 54);
+}

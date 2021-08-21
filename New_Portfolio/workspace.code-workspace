@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "..\\anime\\anime-master"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "New_Portfolio"
+  }
+}
